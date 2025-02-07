@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <section className={styles.container}>
             <div className={styles.content}>
-                <h1 className={styles.title}>Hi, I  Mamta</h1>
+                <h1 className={styles.title}>Hi, I Mamta Thakur</h1>
                 <p className={styles.description}>I am a frontend developer and I have done internship in strategy for 6 month in React JS . React out if you like to more </p>
                  <a className={styles.contactbtn} href="https://nehata2345@gmail.com">contact me</a> 
             </div>

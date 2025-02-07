@@ -1,0 +1,12 @@
+
+[
+    {
+        "role": "software engineer",
+        "organisation":"strategyzinc",
+        "startDate":"15july 2024",
+        "enddate":"jan 2025",
+        "experinces": ["I worked on a project that involved developing a web application using React"],
+        "imageSrc":"../../assets/history/strategyz.png"
+        
+    }
+]

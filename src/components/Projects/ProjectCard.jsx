@@ -1,4 +1,4 @@
-import styles from "./projectCard.module.css";
+import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
   project: { imageSrc, title, description, skills, demo, source },

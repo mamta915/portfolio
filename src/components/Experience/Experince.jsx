@@ -1,6 +1,6 @@
 import skill from '../../data/skills.json';
 import history from '../../../src/data/history.json';
-import styles from './experience.module.css';
+import styles from './Experience.module.css';
 const Experience = () => {
     return (
         <section className={styles.container} id="experience" >

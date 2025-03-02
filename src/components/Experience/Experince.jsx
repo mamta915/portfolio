@@ -29,18 +29,18 @@ const Experience = () => {
 
                 <ul className={styles.history}>
                     {
-                        history.map((history, id) => {
+                        history.map((historyItem, id) => {
                             return (
                                 <li key={id} className={styles.historyItem}>
 
-                                    <img src={history.imageSrc} alt={`${history.organisation} logo`} />
+                                    <img src={historyItem.imageSrc} alt={`${historyItem.role} ${historyItem.organisation}`} />
                                     {/* <img src='../../../assets/history/google.png.png' alt='googleimg' /> */}
 
                                     <div className={styles.historyItemDetails}>
-                                        <h3>{`${history.role}, ${history.organisation}`}</h3>
-                                        <p>{`${history.startDate}, ${history.enddate}`}</p>
+                                        <h3>{`${historyItem.role}, at ${historyItem.organisation}`}</h3>
+                                        <p>{`${historyItem.startDate}, at ${historyItem.enddate}`}</p>
                                         <ul>
-                                            {history.experinces.map((experinces, id) => {
+                                            {historyItem.experinces.map((experinces, id) => {
                                                 return (
                                                     <li key={id}>
                                                         {experinces}

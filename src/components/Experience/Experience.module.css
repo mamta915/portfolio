@@ -5,7 +5,6 @@
     margin-top: 79px;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 .title{
     color: var(--color-text);
@@ -22,10 +21,10 @@
 }
 .skills{
     width: 45%;
-   display: flex;   
-   flex-wrap: wrap;
-   gap: 40px;
-} 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+}
 .skill{
     display: flex;
     flex-direction: column;
@@ -33,7 +32,8 @@
     gap: 11px;
 }
 .skillImageContainer{
-    background-color: var(--color-secondary);
+    /* background: var(--color-secondary); */
+    background-color: #19376d;
     border-radius: 100%;
     display: flex;
     align-items: center;
@@ -43,10 +43,10 @@
 }
 .skillImageContainer img{
     width: 75px;
-    
 }
 .skill p{
-    font-style: 25px;
+    font-size: 25px;
+    font-family: var(--font-roboto);
     font-weight: 500;
 }
 .history{
@@ -54,6 +54,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 10px;
 }
 .historyItem{
     display: flex;
@@ -61,21 +62,19 @@
     align-items: center;
     gap: 17px;
     background: #19376d;
-    background: linear-gradient(
-        90deg,
-        #19376d 0%,
-        rgba(25, 55, 100, 0) 100%
-    );
+    background: linear-gradient(90deg, #19376d 0%, rgba(25,25,109,0) 100% );
     border-radius: 10px;
     padding: 24px;
-    
 }
 .historyItem img{
     width: 50px;
 }
+.historyItemDetails{
+    font-family: var(--font-roboto);
+}
 .historyItemDetails h3{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 500;
 }
 .historyItemDetails p{
     font-size: 20px;
@@ -88,16 +87,16 @@
     list-style-type: disc;
     margin-left: 17px;
 }
-@media screen and (max-width:830px) {
+
+@media screen and (max-width : 830px) {
     .content{
         flex-direction: column;
         align-items: center;
         gap: 34px;
-    }
+    }   
     .skills{
         width: 100%;
-        flex-wrap: wrap;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
     }
     .history{

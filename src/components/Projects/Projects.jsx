@@ -1,6 +1,6 @@
 import ProjectCard from "./ProjectCard"
-import project from '../../data/Projects.json';
-import styles from './projects.module.css';
+import projects from '../../data/Projects.json';
+import styles from './Projects.module.css';
 
 const Projects = () => {
   return (
@@ -8,9 +8,9 @@ const Projects = () => {
         <h2 className={styles.title}>Projects</h2>
         <div className={styles.projects}>
             {
-                project.map((project,id)=>{
+                projects.map((project,id)=>{
                   return(
-                    <ProjectCard key={ id } project={project}/>
+                    <ProjectCard key= {id} project={project}/>
                   )
 
                 })

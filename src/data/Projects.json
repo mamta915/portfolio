@@ -6,5 +6,40 @@
         "skills":["React", "Express", "Firebase"],
         "demo": "http://www.example.com",
         "source":"http://www.wikipedia.coom"
+    },{
+        "title": "g-mailclone",
+        "imageSrc": "../../assets/projects/project.png",
+        "description":"this is a project made to learn the latest",
+        "skills":["React", "Express", "Firebase"],
+        "demo": "http://www.example.com",
+        "source":"http://www.wikipedia.coom"
+    },{
+        "title": "g-mailclone",
+        "imageSrc": "../../assets/projects/project.png",
+        "description":"this is a project made to learn the latest",
+        "skills":["React", "Express", "Firebase"],
+        "demo": "http://www.example.com",
+        "source":"http://www.wikipedia.coom"
+    },{
+        "title": "g-mailclone",
+        "imageSrc": "../../assets/projects/project.png",
+        "description":"this is a project made to learn the latest",
+        "skills":["React", "Express", "Firebase"],
+        "demo": "http://www.example.com",
+        "source":"http://www.wikipedia.coom"
+    },{
+        "title": "g-mailclone",
+        "imageSrc": "../../assets/projects/project.png",
+        "description":"this is a project made to learn the latest",
+        "skills":["React", "Express", "Firebase"],
+        "demo": "http://www.example.com",
+        "source":"http://www.wikipedia.coom"
+    },{
+        "title": "g-mailclone",
+        "imageSrc": "../../assets/projects/project.png",
+        "description":"this is a project made to learn the latest",
+        "skills":["React", "Express", "Firebase"],
+        "demo": "http://www.example.com",
+        "source":"http://www.wikipedia.coom"
     }
 ]
